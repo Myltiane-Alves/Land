@@ -1,5 +1,6 @@
 import React from "react"
 import "./Home.css"
+import { AiFillFacebook, AiFillGithub, AiFillLinkedin } from 'react-icons/ai'
 import hero from "../pic/hero.png"
 import skill1 from "../pic/skill1.png"
 import skill2 from "../pic/skill2.png"
@@ -30,18 +31,18 @@ const Home = () => {
                 <h4>Rede Sociais</h4>
                 <div className='button'>
                   <button className='btn_shadow'>
-                    <i class='fab fa-facebook-f'></i>
+                  <AiFillFacebook size="25"/>
                   </button>
                   <button className='btn_shadow'>
-                    <i class='fab fa-instagram'></i>
+                  <AiFillGithub size="25"/>
                   </button>
                   <button className='btn_shadow'>
-                    <i class='fab fa-linkedin-in'></i>
+                  <AiFillLinkedin size="25" />
                   </button>
                 </div>
               </div>
               <div className='col_1'>
-                <h4>BEST SKILL ON</h4>
+                <h4>Ferramentas</h4>
                 <button className='btn_shadow'>
                   <img src={skill1} alt='' />
                 </button>
