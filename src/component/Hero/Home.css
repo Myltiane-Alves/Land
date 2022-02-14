@@ -4,10 +4,12 @@
 .hero h3 {
   font-weight: 100;
   letter-spacing: 2px;
+  color: white;
 }
 .hero h1 {
   font-size: 60px;
   font-weight: bold;
+  color: white;
 }
 
 .hero h1 span {
@@ -19,7 +21,7 @@
   color: #ff014f;
 }
 .hero h2 span {
-  color: black;
+  color: white;
 }
 .hero p {
   color: #878e99;

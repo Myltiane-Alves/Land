@@ -27,7 +27,7 @@ header ul li a:hover {
 }
 .home-btn {
   background: linear-gradient(145deg, #e2e8ec, #ffffff);
-  box-shadow: 4px 4px 8px #cbcbcb, -4px -4px 8px #ffffff;
+ 
 }
 .home-btn:hover {
   background: #ff014f;
@@ -42,7 +42,7 @@ header ul li a:hover {
   top: 0;
   z-index: 1000;
   width: 100%;
-  background-color: #ecf0f3;
+  background-color: #001219;
   box-shadow: -1px 11px 24px -11px rgba(0, 0, 0, 0.75);
   transition: 0.5s;
 }
@@ -63,7 +63,7 @@ header ul li a:hover {
     background-color: white;
     z-index: 888;
   }
-  header ul li {
+  header ul li  {
     width: 100%;
     transition: all 0.5s ease-in-out;
     text-transform: uppercase;

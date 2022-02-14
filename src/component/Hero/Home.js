@@ -12,14 +12,14 @@ const Home = () => {
       <section className='hero' id='home'>
         <div className='container f_flex top'>
           <div className='left top'>
-            <h3>WELCOME TO MY WORLD</h3>
             <h1>
-              Hi, I’m <span>Jone Lee</span>
+              Dev  <span>Front-End</span>
             </h1>
+            <h3>WELCOME TO MY WORLD</h3>
             <h2>
-              a
+              um
               <span>
-                <Typewriter words={[" Professional Coder.", " Developer."]} loop cursor cursorStyle='|' typeSpeed={70} deleteSpeed={50} delaySpeed={1000} />
+                <Typewriter words={[" Front-End.", " Developer."]} loop cursor cursorStyle='|' typeSpeed={70} deleteSpeed={50} delaySpeed={1000} />
               </span>
             </h2>
 
@@ -27,7 +27,7 @@ const Home = () => {
 
             <div className='hero_btn d_flex'>
               <div className='col_1'>
-                <h4>FIND WITH ME</h4>
+                <h4>Rede Sociais</h4>
                 <div className='button'>
                   <button className='btn_shadow'>
                     <i class='fab fa-facebook-f'></i>
