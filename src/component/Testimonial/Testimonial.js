@@ -29,8 +29,8 @@ const Testimonial = () => {
       <section className='Testimonial' id='clients'>
         <div className='container'>
           <div className='heading text-center'>
-            <h4>WHAT CLIENTS SAY</h4>
-            <h1>Testimonial</h1>
+            <h4>O QUE OS CLIENTES DIZEM</h4>
+            <h1>Testemunho</h1>
           </div>
           <div className='slide'>
             {/*{TestimonialApi.map((val, index) => {

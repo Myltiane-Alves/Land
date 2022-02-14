@@ -60,8 +60,8 @@ button {
   transform: translateY(-10px);
 }
 .box_shodow {
-  background: linear-gradient(145deg, #e2e8ec, #ffffff);
-  box-shadow: 4px 4px 8px #cbcbcb, -4px -4px 8px #ffffff;
+  background: linear-gradient(145deg, #001219, #001219);
+  box-shadow: 4px 4px 8px #ffffff, -4px -4px 8px #ffffff;
   border-radius: 10px;
 }
 .row,
@@ -96,13 +96,13 @@ h1 {
   grid-gap: 35px;
 }
 p {
-  color: #3c3e41;
+  color: #fff;
 }
 .text-center {
   text-align: center;
 }
 .primary_color {
-  color: #ff014f;
+  color: #0a9396;
 }
 textarea,
 input {

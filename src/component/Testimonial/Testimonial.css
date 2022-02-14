@@ -1,5 +1,6 @@
-.Testimonial h2 {
+.Testimonial h2, label {
   margin: 15px 0 0 0;
+  color: #fff;
 }
 
 .Testimonial .left {
@@ -27,6 +28,7 @@
   font-size: 18px;
   font-weight: 400;
   margin-bottom: 40px;
+  color: #fff;
 }
 .Testimonial .slide_button {
   position: absolute;
@@ -54,6 +56,9 @@ article {
   height: 100%;
   opacity: 0;
   transition: all 0.3s linear;
+}
+article h1, h3 {
+  color: #0a9396;
 }
 article.activeSlide {
   opacity: 1;
