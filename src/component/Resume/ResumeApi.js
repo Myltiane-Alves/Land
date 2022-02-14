@@ -3,7 +3,7 @@ const ResumeApi = [
     id: 1,
     category: "education",
     year: "Fael (2016 - 2018)",
-    title: "Análise e Desenvolvimento de Sistemas",
+    title: "Análise e Desenvolvimento Sistemas",
     desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. ",
     rate: "4.30/5",
   },

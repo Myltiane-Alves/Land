@@ -1,6 +1,15 @@
 .features .box {
   padding: 50px;
 }
+.features  .heading h1  {
+  font-size: 32px;
+  color: #0a9396;
+}
+.features  .heading h2  {
+  font-size: 3rem;
+  font-weight: 900;
+  color: #fff;
+}
 .features .box h2 {
   margin: 20px 0 20px 0;
 }

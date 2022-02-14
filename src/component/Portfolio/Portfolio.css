@@ -1,7 +1,10 @@
 .Portfolio {
   position: relative;
 }
-.Portfolio .box {
+.Portfolio h4 {
+  color: #0a9396;
+}
+.Portfolio h1 {
   border-radius: 10px;
   position: relative;
 }
@@ -28,7 +31,7 @@
   text-transform: uppercase;
 }
 .Portfolio .category span {
-  color: #ff014f;
+  color: #0a9396;
   font-size: 13px;
   letter-spacing: 2px;
   font-weight: 500;
@@ -47,6 +50,7 @@
 }
 .Portfolio h2 {
   font-size: 18px;
+  color: #0a9396;
   transition: 0.5s;
   padding-bottom: 30px;
 }

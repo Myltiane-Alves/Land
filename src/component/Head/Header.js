@@ -1,6 +1,7 @@
 import React, { useState } from "react"
 import "./header.css"
 import logo from "../pic/logo.png"
+import { AiOutlineClose, AiOutlineMenu } from "react-icons/ai"
 
 const Header = () => {
   // fixed Header
@@ -15,7 +16,7 @@ const Header = () => {
       <header className='header'>
         <div className='container d_flex'>
           <div className='logo'>
-            <img src={logo} alt='' />
+            <a >Myltiane</a>
           </div>
 
           <div className='navlink'>
@@ -47,9 +48,7 @@ const Header = () => {
               </li>
             </ul>
 
-            <button className='toggle' onClick={() => setMobile(!Mobile)}>
-              {Mobile ? <i className='fas fa-times close home-btn'></i> : <i className='fas fa-bars open'></i>}
-            </button>
+           
           </div>
         </div>
       </header>
@@ -58,3 +57,8 @@ const Header = () => {
 }
 
 export default Header
+/*
+ <button className='toggle' onClick={() => setMobile(!Mobile)}>'
+              {Mobile ? <AiOutlineClose className="close" size="40" /> : <AiOutlineMenu size="40" />}
+            </button>
+            */

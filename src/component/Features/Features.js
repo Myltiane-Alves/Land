@@ -9,8 +9,8 @@ const Features = () => {
       <section className='features top' id='features'>
         <div className='container'>
           <div className='heading'>
-            <h4>Trabalhos</h4>
-            <h1>O que eu faço</h1>
+            <h1>Trabalhos</h1>
+            <h2>O que eu faço</h2>
           </div>
 
           <div className='content grid'>
