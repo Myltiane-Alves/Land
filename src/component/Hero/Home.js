@@ -31,13 +31,13 @@ const Home = () => {
                 <h4>Rede Sociais</h4>
                 <div className='button'>
                   <button className='btn_shadow'>
-                  <AiFillFacebook size="25"/>
+                    <AiFillFacebook size="25"/>
                   </button>
                   <button className='btn_shadow'>
-                  <AiFillGithub size="25"/>
+                   <AiFillGithub size="25"/>
                   </button>
                   <button className='btn_shadow'>
-                  <AiFillLinkedin size="25" />
+                   <AiFillLinkedin size="25" />
                   </button>
                 </div>
               </div>

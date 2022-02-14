@@ -1,3 +1,6 @@
+.Contact img {
+  width: 100%;
+}
 .Contact .left {
   width: 36%;
 }
@@ -26,6 +29,7 @@
 }
 .Contact .input span {
   font-size: 13px;
+  color: #fff;
 }
 .Contact input {
   margin-top: 10px;

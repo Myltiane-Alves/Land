@@ -1,6 +1,7 @@
 import React, { useState } from "react"
 import contact1 from "./contact1.png"
 import "./Contact.css"
+import { AiFillFacebook, AiFillGithub, AiFillLinkedin } from "react-icons/ai"
 
 const Contact = () => {
   const [data, setData] = useState({
@@ -37,8 +38,8 @@ const Contact = () => {
       <section className='Contact' id='contact'>
         <div className='container top'>
           <div className='heading text-center'>
-            <h4>CONTACT</h4>
-            <h1>Contact With Me</h1>
+            <h4>Contato</h4>
+            <h1>Fale Conosco</h1>
           </div>
 
           <div className='content d_flex'>
@@ -48,21 +49,21 @@ const Contact = () => {
                   <img src={contact1} alt='' />
                 </div>
                 <div className='details'>
-                  <h1>Nevine Acotanza</h1>
-                  <p>Chief Operating Officer</p>
-                  <p>I am available for freelance work. Connect with me via and call in to my account.</p> <br />
-                  <p>Phone: +01234567890</p>
-                  <p>Email: admin@example.com</p> <br />
+                  <h1>Myltiane Alves</h1>
+                  <p>Front-End Developer</p>
+                  <p>Desenvolvedor Freelancer</p> <br />
+                  <p>Telefone: +055 61 9978909999</p>
+                  <p>Email: myltiane.aux@gmail.com</p> <br />
                   <span>FIND WITH ME</span>
                   <div className='button f_flex'>
                     <button className='btn_shadow'>
-                      <i className='fab fa-facebook-f'></i>
+                     <AiFillFacebook size="25"/>
                     </button>
                     <button className='btn_shadow'>
-                      <i className='fab fa-instagram'></i>
+                      <AiFillGithub size="25"/>
                     </button>
                     <button className='btn_shadow'>
-                      <i className='fab fa-twitter'></i>
+                     <AiFillLinkedin size="25" />
                     </button>
                   </div>
                 </div>
@@ -73,24 +74,24 @@ const Contact = () => {
               <form onSubmit={formSubmit}>
                 <div className='f_flex'>
                   <div className='input row'>
-                    <span>YOUR NAME</span>
+                    <span>Nome</span>
                     <input type='text' name='fullname' value={data.fullname} onChange={InputEvent} />
                   </div>
                   <div className='input row'>
-                    <span>PHONE NUMBER </span>
+                    <span>Telefone </span>
                     <input type='number' name='phone' value={data.phone} onChange={InputEvent} />
                   </div>
                 </div>
                 <div className='input'>
-                  <span>EMAIL </span>
+                  <span>Email </span>
                   <input type='email' name='email' value={data.email} onChange={InputEvent} />
                 </div>
                 <div className='input'>
-                  <span>SUBJECT </span>
+                  <span>Selecione </span>
                   <input type='text' name='subject' value={data.subject} onChange={InputEvent} />
                 </div>
                 <div className='input'>
-                  <span>YOUR MESSAGE </span>
+                  <span>Mensagem </span>
                   <textarea cols='30' rows='10' name='message' value={data.message} onChange={InputEvent}></textarea>
                 </div>
                 <button className='btn_shadow'>

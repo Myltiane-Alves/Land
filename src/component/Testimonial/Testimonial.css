@@ -3,6 +3,9 @@
   color: #fff;
 }
 
+.Testimonial .heading h1 {
+  color: #fff;
+}
 .Testimonial .left {
   width: 35%;
   padding: 35px;
@@ -23,6 +26,7 @@
 }
 .Testimonial .content h1 {
   font-weight: 500;
+  color: #fff;
 }
 .Testimonial .content h3 {
   font-size: 18px;

@@ -2,6 +2,7 @@ import React, { useState, useEffect } from "react"
 import "./Testimonial.css"
 import Slide from "./Slide"
 import TestimonialApi from "./TestimonialApi"
+import { AiOutlineArrowLeft, AiOutlineArrowRight } from "react-icons/ai"
 
 const Testimonial = () => {
   const [data, setdata] = useState(TestimonialApi)
@@ -43,10 +44,10 @@ const Testimonial = () => {
 
             <div className='slide_button'>
               <button className='btn_shadow prev_btn' onClick={() => setIndex(index - 1)}>
-                <i class='fas fa-arrow-left'></i>
+                <AiOutlineArrowLeft />
               </button>
               <button className='btn_shadow next_btn' onClick={() => setIndex(index + 1)}>
-                <i class='fas fa-arrow-right'></i>
+                <AiOutlineArrowRight />
               </button>
             </div>
           </div>
